@@ -1,0 +1,6 @@
+add_executable(CalAdjustmentAndDiff CalAdjustmentAndDiff.cpp)
+set_target_properties(CalAdjustmentAndDiff PROPERTIES SUFFIX ".exe")
+target_link_libraries(CalAdjustmentAndDiff ${OpenCV_LIBRARIES})
+add_executable(CameraCallibration CameraCallibration.cpp)
+set_target_properties(CameraCallibration PROPERTIES SUFFIX ".exe")
+target_link_libraries(CameraCallibration ${OpenCV_LIBRARIES})
